@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  {% load static %}
+
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+  <link rel="icon" href="{% static 'img/icon.png' %}">
+  <script defer src="{% static 'js/script.js' %}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <title>Визитка</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <span class="element"></span>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
+        <p>
+          Всем привет! Я родился в Череповце, но на данный момент учусь в Сириусе, в it-колледже.
+          Из моих спортивных увлечений можно отметить настольный теннис и баскетбол.
+        </p>
+        <p>
+          Совсем недавно я закончил свое 2-ух годичное обучение в Лицее Академии Яндекса, именно с момента поступления туда и начался мой путь в мир программирования. Стоит отметить, что второй год обучения я закончил дипломом с отличием. Помимо успешной сдачи всех проектов в Яндексе, я участвовал в "Больших вызовах" с работой, связанной с машинным обучением и большими данными.
+        </p>
+        <p>
+          Чаще всего в проектах использовал: PySide6, pygame, sqlalchemy, flask
+        </p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <img src="{% static 'img/img1.png' %}" alt="Nikita">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Полезные ссылки</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p><b>GitHub</b> - <a target="_blank" href="https://github.com/agent-yandex">github.com/agent-yandex</a></p>
+        <p><b>Диплом Яндекс Лицея (1 год)</b> - <a target="_blank" href="https://lyceum.yandex.ru/certificate/check/?certNumber=210141692&lastName=Дружинин">lyceum.yandex.ru</a></p>
+        <p><b>Диплом Яндекс Лицея (2 год)</b> - <a target="_blank" href="https://lyceum.yandex.ru/certificate/check/?certNumber=220241692&lastName=Дружинин">lyceum.yandex.ru</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Контакты для связи</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p>Телефон: +7 (953) 500-32-78</p>
+        <p>Почта: <a href="mailto: fox.online12@gmail.com">fox.online12@gmail.com</a></p>
+        <p>Телеграм: @agent_yandexxx</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
