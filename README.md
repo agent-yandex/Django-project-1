@@ -1,7 +1,7 @@
 # Django-project-1
 Видеопрезентация - https://disk.yandex.ru/i/x5kR6u9MjhBmqw <br>
 На данный момент проект расположен на сайте - http://akirabuff.pythonanywhere.com <br>
-Это мой первый пробный небольшой проект с использованием Python и Django. На локальном сервере находится одностраничный сайт-визитка с информацией о себе.
+Это небольшой проект с использованием Python и Django. На локальном сервере находится одностраничный сайт-визитка с информацией о себе.
 
 ![Иллюстрация к проекту](https://raw.githubusercontent.com/agent-yandex/Django-project-1/main/photo_for_readme.png)
 
